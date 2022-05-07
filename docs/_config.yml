@@ -1,10 +1,8 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Leon's personal page
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-baseurl             : "" #"/portfolYOU"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+                      Keep learning and don't stop :coffee .
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : LeonKou/NetPro     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
