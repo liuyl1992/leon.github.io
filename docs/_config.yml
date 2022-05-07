@@ -1,9 +1,11 @@
 ### Site Settings ###
-title               : Leon's personal page
+title               : Leon blog
 description         : >-
-                      Keep learning and don't stop :coffee .
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : LeonKou/NetPro     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+                      I turn coffee :coffee: into code,
+                      use tabs over spaces
+                      and never broke production.
+baseurl             : "/portfolYOU"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -18,17 +20,18 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
-  name              : Liu Leon
+  name              : John Doe
   image             : https://avatars.githubusercontent.com/u/16396828?s=400&u=81a9b35934da1c17aa22db1d7c51556175ec1959&v=4
   behance           : your_username
 # dribbble          : your_username
-  email             : lyl1002@outlook.com
+  email             : username@domain.com
   facebook          : your_username
-  github            : https://github.com/LeonKou/NetPro
+  github            : your_username
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
@@ -54,17 +57,18 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
 
 
 ### Disqus ###
 disqus:
-  shortname: leon                  # Your website Shortname on disqus
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 ### Analytics ###
 analytics:
-  enabled: true                                        # Set true to enable analytics
+  enabled: false                                        # Set true to enable analytics
   google:
     tracking_id: your-google-tracking-id
 
@@ -72,8 +76,8 @@ analytics:
 ### Buy me a coffee ###
 # See https://www.buymeacoffee.com/
 buymeacoffee:
-  enabled: true
-  username: leon
+  enabled: false
+  username: your_username
   color: "#007bff"
   message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
   description: "Support me on Buy me a coffee!"
@@ -86,6 +90,11 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
