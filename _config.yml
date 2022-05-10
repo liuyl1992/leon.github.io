@@ -1,9 +1,7 @@
 ### Site Settings ###
 title               : blog
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Hi, Hello World.
 baseurl             : "/"                      # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : LeonKou/NetPro     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : LeonKou/NetPro
@@ -26,7 +24,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Liu Leon
-  image             : https://raw.githubusercontent.com/LeonKou/NetPro/dev_6.0/docs/images/netpro2.png
+  image             : https://s3.amazonaws.com/media.thecrimson.com/photos/2020/11/06/010534_1346719.gif
 # behance           : your_username
 # dribbble          : your_username
   email             : lyl1002@outlook.com
