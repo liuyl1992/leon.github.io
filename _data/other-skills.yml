@@ -1,7 +1,7 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: Master Go
+  percentage: 50
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: Draw
+  percentage: 70
   color: success
