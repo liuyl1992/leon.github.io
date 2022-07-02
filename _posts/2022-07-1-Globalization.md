@@ -1,8 +1,8 @@
 ---
-title: NetPro.Globalization 介绍?
+title: NetPro.Globalization 介绍
 tags: [NetPro,C#,netcore]
 style: fill
-color: warning
+color: primary
 description: NetPro  全球化Globalization类库使用
 ---
 
