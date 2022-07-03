@@ -1,7 +1,7 @@
 ---
 name: Next Project
 tools: [unknown]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+image: https://gcdnb.pbrd.co/images/51LzLOaSsRxj.png
 description: placeholder
 ---
 
