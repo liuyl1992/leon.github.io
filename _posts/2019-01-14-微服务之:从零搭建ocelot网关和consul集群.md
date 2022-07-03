@@ -1,6 +1,6 @@
 ---
 title: 微服务之:从零搭建ocelot网关和consul集群
-tags: [NetCore,平台]
+tags: [NetCore,Gateway,Ocelot,网关]
 style: fill
 color: secondary
 description:  微服务之:从零搭建ocelot网关和consul集群

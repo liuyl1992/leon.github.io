@@ -1,6 +1,6 @@
 ---
 title: WebClient, HttpClient, HttpWebRequest ,RestSharp之间的区别与抉择
-tags: [NetCore,平台]
+tags: [NetCore,Http]
 style: fill
 color: success
 description:  WebClient, HttpClient, HttpWebRequest ,RestSharp之间的区别与抉择
