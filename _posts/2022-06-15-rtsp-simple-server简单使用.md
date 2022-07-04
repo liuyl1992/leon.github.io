@@ -1,6 +1,7 @@
 ---
 title: rtsp-simple-server简单使用
 tags: [ffmpeg,media-stream,rtsp-simple-server,rtmp,hls]
+image: https://gcdnb.pbrd.co/images/b6QhYJLiKQXN.png
 style: fill
 color: danger
 description: Srtsp-simple-server简单使用
