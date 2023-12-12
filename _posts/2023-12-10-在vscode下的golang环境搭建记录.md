@@ -38,6 +38,16 @@ C:\> $env:GOPROXY = "https://goproxy.cn"
 [Go for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=golang.go)
 2、快捷键`Ctrl+Shift+P` ,点击 `Go:Install/Update Tools` 后勾选全部选项，安装Go的依赖库，自此支持智能提示与跳转
 
+## go mod使用
+
+创建mod
+`go mod init mod名称(一般与服务名一致)`
+
+拉取模块，移除不用模块
+`go mod tidy ()`
+
+
+
 
 
 
