@@ -34,8 +34,9 @@ C:\> $env:GOPROXY = "https://goproxy.cn"
 ## Vscode环境配置
 
 
-1、在Vscode中进行开发首先需要安装相关Go插件，(Go for Visual Studio Code)[https://marketplace.visualstudio.com/items?itemName=golang.go]
-2、Ctrl+Shift+P ,点击Go:Install/Update Tools 后勾选全部选项，安装Go的依赖库，自此支持智能提示与跳转
+1、在Vscode中进行开发首先需要安装相关Go插件，
+(Go for Visual Studio Code)[https://marketplace.visualstudio.com/items?itemName=golang.go]
+2、快捷键`Ctrl+Shift+P` ,点击 `Go:Install/Update Tools` 后勾选全部选项，安装Go的依赖库，自此支持智能提示与跳转
 
 
 
