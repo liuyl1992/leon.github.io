@@ -3,7 +3,7 @@ title: 在vscode下的golang环境搭建记录
 tags: [go,vscode,笔记]
 image: https://gcdnb.pbrd.co/images/b6QhYJLiKQXN.png
 style: fill
-color: danger
+color: light
 description: 在vscode下的golang环境搭建记录
 ---
 
@@ -20,7 +20,7 @@ description: 在vscode下的golang环境搭建记录
 
 ## 配置Go Module的代理地址
 开发golang程序的前提条件指定一个可靠安全的模块下载源服务器，
-推荐中国最可靠的 Go 模块代理，点击(https://goproxy.cn)[https://goproxy.cn] 了解详情配置
+推荐中国最可靠的 Go 模块代理，点击[https://goproxy.cn](https://goproxy.cn) 了解详情配置
 
 Windows:
 
@@ -35,7 +35,7 @@ C:\> $env:GOPROXY = "https://goproxy.cn"
 
 
 1、在Vscode中进行开发首先需要安装相关Go插件，
-(Go for Visual Studio Code)[https://marketplace.visualstudio.com/items?itemName=golang.go]
+[Go for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=golang.go)
 2、快捷键`Ctrl+Shift+P` ,点击 `Go:Install/Update Tools` 后勾选全部选项，安装Go的依赖库，自此支持智能提示与跳转
 
 
